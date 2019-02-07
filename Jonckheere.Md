@@ -20,6 +20,10 @@ A vector with three values: J (test statistics), Z (normalized J value), and p.v
 
 Hollander and Wolfe. 1999. Nonparametric statistical methods (Second edition). John Wiley & Sons, Inc., New York.
 
+## Author
+
+Minghui Wang (https://github.com/mw201608/)
+
 ## Examples
 ```
 set.seed(1234)

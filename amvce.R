@@ -1,10 +1,11 @@
 #Linear mixded model (or quantitative genetic animal model) variance component estimation using REML
-#Author: Minghui Wang <m.h.wang@live.com>
+#Author: Minghui Wang <m.h.wang at live.com>
 #
 #Please cite the following paper if you use this program:
 # Yang S, Liu Y, Jiang N, Chen J, Leach L, Luo Z and Wang M. Genome-wide eQTLs and heritability for gene expression traits in unrelated individuals. BMC Genomics 2014, 15:13
 #
 #Usage: amvce(y,X,A,tolerance=1.0e-3,maxIter=100,verbose=FALSE)
+#
 #y, a vector of numeric values
 #X, a matrix of fixed effects
 #A, a square matrix of random effect correlation structure

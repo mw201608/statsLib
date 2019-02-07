@@ -3,6 +3,7 @@ Jonckheere.test=function(y,x){
 #Input: y, a vector of numeric values; x, a vector or an ordered factor specifying the grouping of each values in y
 #Reference: Hollander and Wolfe. 1999. Nonparametric statistical methods (Second edition). John Wiley & Sons, Inc., New York.
 #Output: a vector with three named elements, J (the test statistics), Z (normalized J value) and p.value (two-sided p value calculated from normal approximation)
+#Author: Minghui Wang
 	is.rm=is.na(y) | is.na(x) # NA will be removed
 	y=y[!is.rm]
 	x=x[!is.rm]

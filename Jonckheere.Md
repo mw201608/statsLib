@@ -32,7 +32,7 @@ x=rep(1:7,each=3)
 y1=rnorm(1:length(x),mean=x)
 #generate data without an obvious trend
 y2=rnorm(1:length(x),mean=2)
-plot data
+#plot data
 plot(x,y1,xlab='X',ylab='y')
 points(x,y2,col=2)
 abline(lm(y1~x))

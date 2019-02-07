@@ -1,0 +1,2 @@
+# statsLib
+Statistical inference library
